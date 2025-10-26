@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Services | Move it</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+    crossorigin="anonymous"
+  />
+  <style>
+    .feature-icon {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 0.75rem;
+    }
+
+    .service-section {
+      padding: 4rem 0;
+    }
+
+    .service-section:nth-child(even) {
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    .service-icon {
+      font-size: 3rem;
+      color: #0d6efd;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding: 2rem 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Move it</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle active"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#local">Local Moves</a></li>
+              <li><a class="dropdown-item" href="#long-distance">Long Distance</a></li>
+              <li><a class="dropdown-item" href="#storage">Storage</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Post Code"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">
+            Check
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="text-center py-5 border-bottom">
+    <div class="container">
+      <h1 class="display-5 fw-bold text-body-emphasis">Our Moving Services</h1>
+      <p class="lead">
+        From local moves to long-distance relocations, we handle it all with care, speed, and a smile.
+      </p>
+    </div>
+  </header>
+
+  <!-- Services Sections -->
+  <main>
+    <section id="local" class="service-section text-center">
+      <div class="container">
+        <div class="service-icon">🚚</div>
+        <h2 class="fw-bold">Local Moving</h2>
+        <p class="lead mb-4">
+          Moving across town? Our local moving service ensures a smooth, stress-free transition from start to finish. We handle packing, transport, and setup so you can relax.
+        </p>
+        <a href="#" class="btn btn-primary btn-lg">Get a Local Quote</a>
+      </div>
+    </section>
+
+    <section id="long-distance" class="service-section text-center">
+      <div class="container">
+        <div class="service-icon">🛣️</div>
+        <h2 class="fw-bold">Long Distance Moving</h2>
+        <p class="lead mb-4">
+          Relocating to another state? We provide professional, countrywide moving solutions with guaranteed delivery times and real-time tracking.
+        </p>
+        <a href="#" class="btn btn-primary btn-lg">Plan Your Move</a>
+      </div>
+    </section>
+
+    <section id="storage" class="service-section text-center">
+      <div class="container">
+        <div class="service-icon">📦</div>
+        <h2 class="fw-bold">Secure Storage</h2>
+        <p class="lead mb-4">
+          Need extra space during your move? Our clean, climate-controlled storage facilities keep your belongings safe for as long as you need.
+        </p>
+        <a href="#" class="btn btn-primary btn-lg">Reserve Storage</a>
+      </div>
+    </section>
+
+    <section class="service-section text-center">
+      <div class="container">
+        <div class="service-icon">💪</div>
+        <h2 class="fw-bold">Packing & Unpacking</h2>
+        <p class="lead mb-4">
+          Save time and energy! Our trained professionals carefully pack and unpack your items, using quality materials and efficient techniques.
+        </p>
+        <a href="#" class="btn btn-outline-light btn-lg">Learn More</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- CTA -->
+  <div class="container text-center py-5">
+    <h2 class="fw-bold mb-3">Ready to make your move?</h2>
+    <p class="lead mb-4">Let’s plan your perfect move together.</p>
+    <a href="#" class="btn btn-success btn-lg px-5">Get Your Free Quote</a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p class="text-secondary mb-0">
+      &copy; 2025 Move it. All rights reserved.
+    </p>
+  </footer>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
